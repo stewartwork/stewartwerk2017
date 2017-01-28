@@ -1,0 +1,43 @@
+.large-4.columns img {
+	margin-bottom: 15px;
+}
+.row.cta h2 {
+	text-transform: uppercase;
+}
+footer .panel p {
+	margin-bottom: .4em;
+	font-size: 14px;
+}
+@media only screen and (min-width: 768px) {
+	  h4 {
+    font-size: 1.2em; }
+}
+.topics h1.topix {
+	font-size: 90px;
+	margin, padding: 0;
+	line-height: 10px;
+	padding-top: 40px;
+}
+.topics h2.topix {
+	padding-bottom: 20px;
+}
+.round {
+	border-radius: 100px;
+}
+.cat .large-3.small-6.columns {
+	opacity: .6;
+}
+.cat .large-3.small-6.columns.selected {
+	opacity: 1;
+}
+.clear {
+	clear: both;
+}
+.cat .panel .large-3.small-6.columns, .cat section .large-3.small-6.columns, .cat section .large-3.columns {
+	text-align: left;
+	opacity: 1;
+}
+.cat .panel .large-3.small-6.columns li {
+	border-bottom: 1px solid #ccc;
+	line-height: 40px;
+}

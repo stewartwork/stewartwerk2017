@@ -1,0 +1,30 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stewartwerk</title>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <a href="index.html"><img class="logo" src="{{root}}assets/img/logoSW.svg" /></a>
+            <p><a href="https://www.behance.net/mattstewart" target="_blank">behance</a> | <a href="about.html">about</a> | <a href="mailto:stewartwerk@gmail.com">email</a></p>
+        </div>
+    </header>
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}} {{> body}}
+    <footer>
+        <div class="row">
+            <p><a href="about.html">about</a> | <a href="mailto:stewartwerk@gmail.com">email</a></p>
+        </div>
+    </footer>
+    <script src="{{root}}assets/js/app.js"></script>
+</body>
+
+</html>
